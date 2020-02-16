@@ -1,0 +1,105 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Neucha', cursive;
+    font-size: 20px;
+    background: #EFE9E8;
+}
+
+/*---------------контейнер----------------*/
+.container {
+    width: 1440px;
+    margin: 26px auto;
+}
+
+/*-----------------block1-------------*/
+.block1 {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h1.block1 {
+    width: 227px;
+    justify-content: center;
+}
+
+a.block1.svet {
+    background: url("kisa/nazad.png");
+    display: block;
+    height: 69px;
+    width: 69px;
+}
+
+a.block1.svet:hover {
+    background: url("kisa/nazad2.png");
+    transform: translateY(-2px);
+}
+
+h5.block1 {
+    width: 986px;
+    margin-top: 34px;
+    border-top: 2px #FF97B2 dashed;
+}
+
+/*-----------------block2-------------*/
+.block2 {
+    width: 765px;
+    margin: 0px auto;
+}
+
+/*----------------left-------------*/
+.table1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: justify;
+    margin-bottom: 0px;
+    margin-top: -20px;
+}
+
+.picleft {
+    margin: 0px 31px 0px 0px;
+    width: 127px;
+}
+
+.textleft {
+    margin: 0px;
+    width: 450px;
+}
+
+/*----------------right-------------*/
+.table2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: right;
+    margin-bottom: 0px;
+    margin-top: -0px;
+}
+
+.textright {
+    margin: 0px;
+    width: 450px;
+}
+
+.picright {
+    margin: 0px 0px 0px 31px;
+    width: 127px;
+}
+
+/*----------------line-------------*/
+h5.line {
+    width: 986px;
+    margin: 10px auto;
+    border-top: 2px #FF97B2 dashed;
+}

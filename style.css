@@ -1,0 +1,132 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Neucha', cursive;
+    background: #EFE9E8;
+}
+
+/*-----------------контейнер-------------------------*/
+.container {
+    display: flex;
+
+    max-width: 1440px;
+    margin: 0 auto;
+    background: #EFE9E8;
+}
+
+/*------------------блоки----------------------------*/
+.block1 {
+    width: 278px;
+    margin: 50px 0px 0px 31px;
+}
+
+.block2 {
+    margin: 0 auto;
+}
+
+.block3 {
+    width: 309px;
+    margin: 0;
+}
+
+/*----------------------1--------------------------------*/
+
+.stolb {
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    margin: 0px 0px 0px 0px ;
+    
+}
+
+a.block1{
+    margin: 10px 0px 0px 30px ;
+    width: 30px;
+}
+
+h1.knop {
+    /*кнопка*/
+    margin: 0px 0px 0px 0px ;
+    width: 187px;
+    height: 41px;
+    background: #C4C4C4;
+    box-shadow: 1px 4px 8px #FBABC0;
+    border-radius: 30px;
+    /*заголовок*/
+    color: #010105;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 600;
+    padding-top: 9px;
+    margin: 0;
+}
+
+/*line*/
+h5.lin {
+    border-bottom: 2px #FF97B2 dashed;
+    margin: 0;
+    width: 278px;
+
+}
+
+h5.block1.lin {
+    margin: 23px 0px 0px;
+}
+
+/*текст*/
+p.block1.text {
+    text-align: justify;
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin: 0;
+    margin-top: 5px;
+}
+
+/*-----------------------2-------------------------------*/
+p.block2.photo {
+    margin-top: 200px;
+}
+
+/*-----------------------3-------------------------------*/
+/*line*/
+h5.block3.lin {
+    margin-top: 550px;
+}
+
+a.block3.knopk {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    width: 187px;
+    height: 41px;
+    background: #C4C4C4;
+    box-shadow: 1px 4px 8px #FBABC0;
+    border-radius: 30px;
+    transition: .3s;
+
+    /*заголовок*/
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: #010105;
+    padding-top: 9px;
+
+}
+
+a.block3.knopk:hover {
+    background: #FF97B2;
+    box-shadow: 0 5px 20px #FBABC0;
+    color: white;
+    transform: translateY(-7px);
